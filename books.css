@@ -1,27 +1,128 @@
-ul#bookList li div {
+.divInlist {
 	display: inline-block;
-	width: 30%;
+	width: 23%;
+	
 }
-
-.left {
-	float: left;
-}
-
-.right {
-	float: right;
-}
-
-.center {
-	width: 40% !important;
-	text-align: center;
+.divLastInlist{
+	display: inline-block;
+	width: 10%;
 }
 
 ul {
 	list-style-type: none;
-	width: 600px;
+	width: 100%;
+	padding:0px;
+	
+	
+	
+}
+#bookList{
+	margin-top:5px;
+	
+}
+.liInList  {
+		border-bottom: 1px solid #4285f4;
+		padding-left: 20px;
+		padding-bottom:5px;
+		padding-top:5px;
+		
+	
+}
+.garbage{
+	background-image:url(https://ssl.gstatic.com/mail/sprites/general_black-16bf964ab5b51c4b7462e4429bfa7fe8.png);
+	background-position-x: 0px;
+	background-position-y: -411px;
+	height:21px;
+	width:21px;
+	float:right;
+	border:none;
+	background-color:#D8D8D8;
+	padding:5px;
+}	
+.edit{
+	background-image:url(https://cwo.ucsd.edu/_images/uxt/icon_pencil_disabled.gif);
+	height:21px;
+	width:21px;
+	border:none;
+	background-repeat:no-repeat;
+	float:right;
+	background-color:#D8D8D8;
+}
+.privetEdit{
+	background-image:url(https://cwo.ucsd.edu/_images/uxt/icon_pencil_disabled.gif);
+	height:21px;
+	width:21px;
+	border:none;
+	background-repeat:no-repeat;
+	width:22%;
+	padding:none;
+	background-color:#D8D8D8;
+}
+.editInput{
+	width:82%;
+}
+input {
+	display:block;
+	margin-right:20px;
+	border:none;
+	background-color:#4285f4;
+	
+	color:white;
+	text-align:center;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+	
+}
+#enteringDiv{
+	margin-top:10px;
+	margin-left:42%;
 }
 
-ul#bookList li  {
-		border: 1px solid black;
-		padding: 20px;
+#button {
+	text-align:center;
+	display:inline-block;
+	margin-right:20px;
+	background-color:white;
+	color:#4285f4;
+	border:#4285f4 solid 1px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+	cursor:pointer;
+	
+	
+
+}
+#button2 {
+	display:inline-block;
+	margin-right:20px;
+	background-color:white;
+	color:#4285f4;
+	border:#4285f4 solid 1px;
+	cursor:pointer;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+	
+
+}			
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #909;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #909;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #909;
 }
